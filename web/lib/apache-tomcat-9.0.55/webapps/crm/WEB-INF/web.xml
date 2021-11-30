@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<web-app>
+<mime-mapping> 
+    <extension>htm</extension> 
+    <mime-type>text/html;charset=utf-8</mime-type> 
+</mime-mapping> 
+<mime-mapping> 
+    <extension>html</extension> 
+    <mime-type>text/html;charset=utf-8</mime-type> 
+</mime-mapping>
+
+
+
+
+
+
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet><!--描述信息-->
+	<servlet-name>	dd	</servlet-name>
+	<!--下面的包名必须是完整的包名.类名-->
+	<servlet-class>	serverLet.FirstDemo	</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+	<servlet-name>	dd	</servlet-name>
+	<!--这里需要路径，以/开始-->
+	
+	<url-pattern>	/SDFAD/SDAS	</url-pattern>
+	
+  </servlet-mapping> 
+  
+  
+  <servlet><!--描述信息-->
+	<servlet-name>	sd	</servlet-name>
+	<!--下面的包名必须是完整的包名.类名-->
+	<servlet-class>	serverLet.StuInfo_Get	</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+	<servlet-name>	sd	</servlet-name>
+	<!--这里需要路径，以/开始-->
+	
+	<url-pattern>	/JDBC	</url-pattern>
+	
+  </servlet-mapping> 
+  
+  
+</web-app>
